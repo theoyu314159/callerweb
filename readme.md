@@ -8,15 +8,15 @@
 
 ## 網址
 
-尚未上傳到render
+https://callerweb.onrender.com
 
 ##　引用模組
 
-ｆｌａｓｋ
+flask
 
 ##　結構
 
-分為四個ｒｏｕｔｅ
+分為四個route
 
 分別要做創建頁面
 
