@@ -19,8 +19,8 @@ def submit():
     path=f'{submit}.txt'
     with open( path,'w',encoding="utf-8") as f:
         f.write(str(0))
-    k=f'http://192.168.1.109:5000/{path}'
-    y=f'http://192.168.1.109:5000/{path}/w'
+    k=f'https://callerweb.onrender.com/{path}'
+    y=f'https://callerweb.onrender.com/{path}/w'
     out='使用者網址:',k,'控制號碼網址:',y
     return  html.replace('<out/>',str(out))
 
